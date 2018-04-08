@@ -1,0 +1,20 @@
+<ion-view title="Page" id="page4">
+  <ion-content padding="true" class="has-header">
+    <h3 id="page4-heading7" style="color:#000000;">“Let us now your name, email and phone number</h3>
+    <form id="page4-form7" class="list">
+      <label class="item item-input" id="page4-input7">
+        <span class="input-label">name</span>
+        <input type="text" placeholder="" ng-model="mdl.name">
+      </label>
+      <label class="item item-input" id="page4-input8">
+        <span class="input-label">email</span>
+        <input type="email" placeholder="" ng-model="mdl.email">
+      </label>
+      <label class="item item-input" id="page4-input9">
+        <span class="input-label">phone number</span>
+        <input type="number" placeholder="" ng-model="mdl.phone">
+      </label>
+    </form>
+    <a ui-sref="page5({radio: radio, check1: check1, check2: check2, check3: check3, check4: check4, comment: comment, name: mdl.name, email: mdl.email, phone: mdl.phone})" id="page4-button8" class="button button-positive button-block">Submit</a>
+  </ion-content>
+</ion-view>
